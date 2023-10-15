@@ -1,0 +1,22 @@
+ .square {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#square1, #square2, #square3 {
+    background-color: blue;
+}
+
+#square4, #square5 {
+    opacity: 0.5;
+}
